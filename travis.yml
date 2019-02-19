@@ -1,0 +1,8 @@
+ language: c
+2. sudo: false # only for faster builds
+3. compiler:
+4. - clang
+5. - gcc
+6. script:
+7. - gcc -o test test.c // we can use gcc instead of clang too
+8. - ./test
